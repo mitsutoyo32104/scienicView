@@ -1,0 +1,161 @@
+●top-section アイコン部分
+<div id="top-icon">
+  <img src="http://placehold.jp/24/cc9999/993333/400x360.png">
+</div>
+
+#top-icon {
+  position: absolute;
+  top: 400px;
+  left: 640px;
+}
+
+#top-icon img {
+  width: 240px;
+}
+
+
+●Introduction area(Misson Wrapper)の下の画像部分とリンク部分
+<div id="illust_1">
+  <img src="http://placehold.jp/870x314.png">
+</div>
+<div id="link-button" class="link-button">
+  <a href="#"><img src="http://placehold.jp/716x98.png"></a>
+</div>
+</div>
+
+#illust_1 {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.link-button {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.link-button:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
+
+
+●VIdeo-Wrapper部分
+<section id="video-wrapper">
+  <div class="container" id="video-container">
+    <h2><span class="section-title" id="video-title">h2h2h2h2h2</span>━━━━━━━━━━━━━━━━━━━━</h2>
+    <p>pppppppppppppppppppppppppppppppppppppppppppppppppppppppp</p>
+    <iframe id="video" src="https://www.youtube.com/embed/_wLza5A0TME"  allow="autoplay; encrypted-media" frameborder="0"  allowfullscreen></iframe>
+    <p>pppppppppppppppppppppppppppppppppppppppppppppppppppppppp</p>
+</section>
+
+#video-wrapper {
+  height: 100%;
+  background-color: #defa43;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#video-wrapper h2 {
+  color: #60a0f6;
+  font-weight: 900;
+  font-size: 38px; 
+  text-align: left;
+}
+
+#video-title {
+  color: #60a0f6;
+
+}
+
+#video-container p {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+#video-container p:nth-of-type(1) {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#video {
+  width: 850px;
+  height: 500px;
+}
+
+#video-container p:nth-of-type(2) {
+  text-align: left;
+  text-indent: 80px;
+}
+
+
+
+
+
+●recommend-wrapper
+<section id="recommennd-wrapper">
+  <div class="container" id="recommend-wrapper">
+    <h2>h2h2h2h2h2h2h2h2h2h2h2h</h2>
+    <h2>h2h2h2h2h2h2h2h2h2h2h2h2h2h</h2>
+    <div id="link-wrapper">
+      <img src="http://placehold.jp/46x84.png">
+      <p>pppppppppppppppppppppppppppppppppppp<br>pppppppppppppppppppppppppppppppppppp</p>
+      <img src="http://placehold.jp/46x84.png">
+    </div>
+    <a href="#"><img class="link-button" id="link-button2" src="http://placehold.jp/716x98.png"></a>
+    <img src="http://placehold.jp/670x204.png">
+  </div>
+</section>
+
+#recommennd-wrapper {
+  background-color: #defa43;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: "Noto Serif JP";
+  text-align: center;
+}
+
+#recommend-wrapper h2 {
+  font-size: 41px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#recommend-wrapper h2:first-child {
+  text-indent: 15px;
+  letter-spacing: 6.5px;
+}
+
+
+#link-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+#link-wrapper p {
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+[src="../img/line_left.png"] {
+  transform: rotate(-20deg);
+  width: 20px;
+}
+
+[src="../img/line_right.png"] {
+  transform: rotate(15deg);
+  width: 20px;
+}
+
+#link-button2 {
+  margin-right: 30px;
+}
+
+[src="../img/illust_2.png"] {
+  margin-top: -20px;
+}
